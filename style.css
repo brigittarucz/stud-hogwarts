@@ -36,3 +36,24 @@ h3 {
     font-size: 1.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+li {
+    color: white;
+    font-size: 1.3rem;
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (min-width: 650px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    section {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
